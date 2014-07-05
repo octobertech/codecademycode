@@ -1,0 +1,17 @@
+def reverse(text):
+    """takes a string text and returns that string in reverse.""" 
+    result=""
+    for i in text:
+        result=i+result
+    return result
+    
+    
+def anti_vowel(text):
+    """takes a string text and returns the text with all of the vowels removed."""
+    result=""
+    for i in text:
+        if i in "aeiouAEIOU":
+            pass
+        else:
+            result+=i
+    return result
